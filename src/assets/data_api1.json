@@ -1,0 +1,149 @@
+{
+    "data": [
+        {
+            "companyName": "Infosys",
+            "position": "Software Engineer",
+            "reqExperience": "0-2 yrs",
+            "link": "https://www.infosys.com",
+            "companyLogo": "https://www.drupal.org/files/styles/grid-4-2x/public/infosys-logo-PNG.png?itok=aCLUpIQT",
+            "skillVisCheck": false,
+            "reqSkills": "java, c, c++, python, UI, Backend",
+            "location": "blr",
+            "status": "open",
+            "jobType": "software"
+        },
+        {
+            "companyName": "de-shaw",
+            "position": "MTS",
+            "reqExperience": "2-5 yrs",
+            "link": "https://www.infosys.com",
+            "companyLogo": "https://freakydiodes.com/wp-content/uploads/2022/02/de-shaw-co.png",
+            "skillVisCheck": false,
+            "reqSkills": "java, c, c++, python, UI, Backend",
+            "location": "noida",
+            "status": "open",
+            "jobType": "software"
+        },
+        {
+            "companyName": "amazon",
+            "position": "SDE1",
+            "reqExperience": "0-2 yrs",
+            "link": "https://www.infosys.com",
+            "companyLogo": "https://1000logos.net/wp-content/uploads/2016/10/Amazon-logo-meaning.jpg",
+            "skillVisCheck": false,
+            "reqSkills": "java, c, c++, python, UI, Backend",
+            "location": "hyd",
+            "status": "open" ,
+            "jobType": "software"     
+        },
+        {
+            "companyName": "meta",
+            "position": "Software Engineer",
+            "reqExperience": "5+ yrs",
+            "link": "https://www.infosys.com",
+            "companyLogo": "https://static.dezeen.com/uploads/2021/11/meta-facebook-rebranding-name-news_dezeen_2364_col_hero2.jpg",
+            "skillVisCheck": false,
+            "reqSkills": "java, c, c++, python, UI, Backend",
+            "location": "noida",
+            "status": "close",
+            "jobType": "software" 
+        },
+        {
+            "companyName": "Google",
+            "position": "Software Engineer",
+            "reqExperience": "5+ yrs",
+            "link": "https://www.infosys.com",
+            "companyLogo": "https://blog.hubspot.com/hubfs/image8-2.jpg",
+            "skillVisCheck": false,
+            "reqSkills": "java, c, c++, python, UI, Backend",
+            "location": "noida",
+            "status": "open",
+            "jobType": "software"    
+        },
+        {
+            "companyName": "morgan stanely",
+            "position": "MTS",
+            "reqExperience": "2-5 yrs",
+            "link": "https://www.infosys.com",
+            "companyLogo": "https://c8.alamy.com/comp/2HPWYE3/morgan-stanley-white-background-logo-brand-name-2HPWYE3.jpg",
+            "skillVisCheck": false,
+            "reqSkills": "java, c, c++, python, UI, Backend",
+            "location": "noida",
+            "status": "close",
+            "jobType": "software"      
+        },
+        {
+            "companyName": "Infosys-1",
+            "position": "Software Engineer",
+            "reqExperience": "0-2 yrs",
+            "link": "https://www.infosys.com",
+            "companyLogo": "https://www.drupal.org/files/styles/grid-4-2x/public/infosys-logo-PNG.png?itok=aCLUpIQT",
+            "skillVisCheck": false,
+            "reqSkills": "java, c, c++, python, UI, Backend",
+            "location": "blr",
+            "status": "open",
+            "jobType": "software"
+        },
+        {
+            "companyName": "de-shaw-1",
+            "position": "MTS",
+            "reqExperience": "2-5 yrs",
+            "link": "https://www.infosys.com",
+            "companyLogo": "https://freakydiodes.com/wp-content/uploads/2022/02/de-shaw-co.png",
+            "skillVisCheck": false,
+            "reqSkills": "java, c, c++, python, UI, Backend",
+            "location": "noida",
+            "status": "open",
+            "jobType": "software"
+        },
+        {
+            "companyName": "amazon-1",
+            "position": "SDE1",
+            "reqExperience": "0-2 yrs",
+            "link": "https://www.infosys.com",
+            "companyLogo": "https://1000logos.net/wp-content/uploads/2016/10/Amazon-logo-meaning.jpg",
+            "skillVisCheck": false,
+            "reqSkills": "java, c, c++, python, UI, Backend",
+            "location": "hyd",
+            "status": "open" ,
+            "jobType": "software"     
+        },
+        {
+            "companyName": "meta-1",
+            "position": "Software Engineer",
+            "reqExperience": "5+ yrs",
+            "link": "https://www.infosys.com",
+            "companyLogo": "https://static.dezeen.com/uploads/2021/11/meta-facebook-rebranding-name-news_dezeen_2364_col_hero2.jpg",
+            "skillVisCheck": false,
+            "reqSkills": "java, c, c++, python, UI, Backend",
+            "location": "noida",
+            "status": "close",
+            "jobType": "software" 
+        },
+        {
+            "companyName": "Google-1",
+            "position": "Software Engineer",
+            "reqExperience": "5+ yrs",
+            "link": "https://www.infosys.com",
+            "companyLogo": "https://blog.hubspot.com/hubfs/image8-2.jpg",
+            "skillVisCheck": false,
+            "reqSkills": "java, c, c++, python, UI, Backend",
+            "location": "noida",
+            "status": "open",
+            "jobType": "software"    
+        },
+        {
+            "companyName": "morgan stanely-1",
+            "position": "MTS",
+            "reqExperience": "2-5 yrs",
+            "link": "https://www.infosys.com",
+            "companyLogo": "https://c8.alamy.com/comp/2HPWYE3/morgan-stanley-white-background-logo-brand-name-2HPWYE3.jpg",
+            "skillVisCheck": false,
+            "reqSkills": "java, c, c++, python, UI, Backend",
+            "location": "noida",
+            "status": "close",
+            "jobType": "software"      
+        }
+        
+]
+}

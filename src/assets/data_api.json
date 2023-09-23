@@ -1,0 +1,88 @@
+{
+    "data": [
+        {
+            "company_name": "Google",
+            "position": "summer Internship",
+            "req_experience": "0+ years",
+            "link": "https://www.google.com/about/careers/applications/jobs/results/131573075612181190-software-engineering-intern-summer-2024",
+            "company_logo": "assets/images/google.png",
+            "skill_vis_check": false,
+            "req_skills": "Currently pursuing a Bachelor’s, Master’s or PhD degree in Computer Science or related technical field",
+            "location": "blr",
+            "status": "open",
+            "job_type": "software"    
+        },
+        {
+            "company_name": "Swiggy",
+            "position": "Director - Finance",
+            "req_experience": "7 - 10 years",
+            "link": "https://careers.swiggy.com/#/careers?p=eyJwYWdlVHlwZSI6ImpkIiwiY3ZTb3VyY2UiOiJsaW5rZWRpbiIsInJlcUlkIjo5MjM3LCJyZXF1ZXN0ZXIiOnsiaWQiOiIiLCJjb2RlIjoiIiwibmFtZSI6IiJ9LCJwYWdlIjoiY2FyZWVycyIsImJ1ZmlsdGVyIjotMX0%3D",
+            "company_logo": "assets/images/swiggy.png",
+            "skill_vis_check": false,
+            "req_skills": "CA with post-qualification experience of 3-8 years",
+            "location": "blr",
+            "status": "open",
+            "job_type": "finance"    
+        },
+        {
+            "company_name": "Civil Aviation",
+            "position": "Air Safety Officer",
+            "req_experience": "0+ years",
+            "link": "https://upsconline.nic.in/ora/Detail.php?post=MjA0OQCUAJIC9K5NCYOXLISIZQ1Q2DCCVXLSWXXAM6ADA7NAHAKFGK3I&case=MjI1MQA7QIIHCJN3YFACLVI5SMWCQLUXAXKO26SDKNAI9XX1CAGCDZAK&id=MQCWAQX3DC6IALIKQOSK7KXG95YIPX1LAVNAAHFCXCUZ2JSMNADC",
+            "company_logo": "assets/images/govt.jpg",
+            "skill_vis_check": false,
+            "req_skills": "Graduation.",
+            "location": "india",
+            "status": "open",
+            "job_type": "govt"    
+        },
+        {
+            "company_name": "Government",
+            "position": "Legal Officer",
+            "req_experience": "3+ years",
+            "link": "https://upsconline.nic.in/ora/Detail.php?post=MjA1MwCIOCWASVAFAXH2J7LZDKYUAMXINI9SQNCIC1DKA3PA5L6GKXCQ&case=MjI1OQ6ANXXDJSIC9MYQCDIQ3X5LLAA7AKIFKHO1CSNGC2UKAWACIXPV&id=MQ5NCGHMIANWPD1AZUOK3QIKCXXVC26C7FIXALACYXAQIL9SDJKA",
+            "company_logo": "assets/images/govt.jpg",
+            "skill_vis_check": false,
+            "req_skills": "Degree in law from a recognized university. Three years experience in the field of Legal Practice",
+            "location": "india",
+            "status": "open",
+            "job_type": "govt"    
+        },
+        {
+            "company_name": "Mercedes-Benz",
+            "position": "Senior DevOps Engineer",
+            "req_experience": "4 - 7 years",
+            "link": "https://jobs.mercedes-benz.com/job/397041/senior-devops-engineer.html",
+            "company_logo": "assets/images/mbenz.jpg",
+            "skill_vis_check": false,
+            "req_skills": "Devops, CI/CD",
+            "location": "blr",
+            "status": "open",
+            "job_type": "software"    
+        },
+        {
+            "company_name": "Accenture",
+            "position": "Health Operations New Associate",
+            "req_experience": "0–1 years",
+            "link": "https://www.accenture.com/in-en/careers/jobdetails?id=271618_india_2",
+            "company_logo": "assets/images/accenture.png",
+            "skill_vis_check": false,
+            "req_skills": "Healthcare Management – Healthcare Utilization Management | Any Graduation/12th/PUC/HSC",
+            "location": "blr",
+            "status": "open",
+            "job_type": "software"    
+        },
+        {
+            "company_name": "Deloitte",
+            "position": "Analyst",
+            "req_experience": "0+ yrs",
+            "link": "https://usijobs.deloitte.com/careersUSI/JobDetail/USI-EH24-MF-ITS-CA-Off-Campus-Analyst/147196",
+            "company_logo": "assets/images/deloitte.png",
+            "skill_vis_check": false,
+            "req_skills": "Educational Qualification: B.E/B.Tech/ M.C.A.Excellent analytical skills and communication skills (written, verbal, and presentation)",
+            "location": "hyd",
+            "status": "open",
+            "job_type": "software"
+        }
+    ]
+}

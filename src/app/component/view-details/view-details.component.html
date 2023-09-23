@@ -1,0 +1,193 @@
+
+
+<app-navigation></app-navigation>
+
+<div id="view-body">
+    <div id="show_grid" class="flex-container">
+        <div id="show_filters" class="flex-child">
+            <br>
+            
+            <h1 class="h1filter"> &nbsp;&nbsp;&nbsp; <b> Filters </b></h1>
+            <!-- <button class="reset_filter" type="reset"  (click)="getButtonClick('reset')" > <b>reset filter</b></button> -->
+            <button class="reset_filter" type="reset"  (click)="resetFilter()" > <b>reset filter</b></button>
+            <hr>
+            <!-- <h2>&nbsp;&nbsp;Filter by Company</h2> -->
+            <div class="search-company">
+                <h2 class="company-text">&nbsp;&nbsp;&nbsp;&nbsp;Company</h2>
+                <!-- &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; -->
+                <input class="form-control" type="text" name="search" placeholder="&#61442; Search by Company Name" 
+                list="get_company_name" (change)="getCompany($event)" >
+                <datalist id="get_company_name">
+                    <option *ngFor="let item of available_company_name" [value]="item">{{item}}</option>
+                </datalist>
+            </div>
+            <br>
+            <hr>
+
+            <h2 class="type-text">&nbsp;&nbsp;&nbsp;&nbsp;Type</h2>
+
+            <div class="type-div">
+                <input 
+                mdbCheckbox
+                class="form-check-input"
+                type="checkbox" id="radio-type-software" name="software" (checked)="typesoftware = !typesoftware" 
+                (change)="check_type('software')">
+                &nbsp; <label for="software" id="radio-type-software" > Software </label>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input 
+                mdbCheckbox
+                class="form-check-input"
+                type="checkbox" id="radio-type-finance" name="finance" (checked)="check_type('finance')"
+                (change)="check_type('finance')">
+                &nbsp; <label for="finance" id="radio-type-finance" > Finance </label><br>
+                
+                <input 
+                mdbCheckbox
+                class="form-check-input"
+                type="checkbox" id="radio-type-hr" name="hr" (checked)="check_type('hr')"
+                (change)="check_type('hr')">
+                &nbsp; <label for="hr" id="radio-type-hr" > HR </label>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input 
+                mdbCheckbox
+                class="form-check-input"
+                type="checkbox" id="radio-type-govt" name="govt" (checked)="check_type('govt')"
+                (change)="check_type('govt')">
+                &nbsp; <label for="govt" id="radio-type-govt" > Govt </label>
+
+            </div>
+            <br><br>
+            <hr>
+
+            <h2 class="status-text">&nbsp;&nbsp;&nbsp;&nbsp;Status</h2>
+
+            <div class="status-div">
+                <!-- <input type="checkbox" id="check-status-all" name="all" value="All" (checked)="status_all = !status_all"
+                 (change)="check_status('all')">
+                <label for="All" id="check-status-software" > All</label> -->
+
+                <input
+                mdbCheckbox
+                class="form-check-input"
+                 type="checkbox" id="check-status-open" name="open" value="Open" (checked)="status_open = !status_open"
+                (change)="check_status('open')">
+                &nbsp; <label for="Open" id="check-status-finance" > Open </label>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <input 
+                mdbCheckbox
+                class="form-check-input"
+                type="checkbox" id="check-status-close" name="close" value="Close" (checked)="status_close = !status_close"
+                 (change)="check_status('close')">
+                 &nbsp; <label for="Close" id="check-status-close" > Close </label><br>
+
+            </div>
+            
+            <hr>
+
+            <div class="search-company">
+                <h2 class="company-text">&nbsp;&nbsp;&nbsp;&nbsp;Location</h2>
+                <!-- &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; -->
+
+                <input class="form-control" type="text" name="search" autocomplete="off" 
+                placeholder="&#61442; Search by Location" list="get_location" (change)="getLocation($event)">
+
+                <datalist id="get_location">
+                    <option *ngFor="let location of available_location" [value]="location">{{location}}</option>
+                </datalist>
+            </div>
+
+            <br><br>
+
+            <div class="location-div">
+                &nbsp;&nbsp;&nbsp;
+                <input 
+                mdbCheckbox
+                class="form-check-input"
+                type="checkbox" id="check-location-india" name="NCR" value="india" (checked)="location_india = !location_india"
+                (change)="check_location('NCR')">
+                &nbsp; <label for="india" id="check-location-india" > NCR </label>
+
+                &nbsp;&nbsp;&nbsp;
+                <input 
+                mdbCheckbox
+                class="form-check-input"
+                type="checkbox" id="check-location-blr" name="blr" value="BLR" (checked)="location_blr = !location_blr"
+                (change)="check_location('blr')">
+                &nbsp; <label for="BLR" id="check-status-blr" > BLR </label>
+
+                &nbsp;&nbsp;&nbsp;
+                <input 
+                mdbCheckbox
+                class="form-check-input"
+                type="checkbox" id="check-status-hyd" name="hyd" value="HYD" (checked)="location_hyd = !location_hyd"
+                (change)="check_location('hyd')">
+                &nbsp; <label for="Close" id="check-status-hyd" > HYD </label>
+            </div>
+            <br><br>
+            <hr>
+            
+        </div>
+        <div class="flex-child" id="show_jobs">
+            
+            <mat-grid-list (window:resize)="onResize($event)" [cols]="breakpoint" rowHeight="2:1" [gutterSize]="'15px'">
+                <mat-grid-tile id="mat-grid-show-elements" *ngFor="let x of currentPageData" >
+                    <div class="element-inside-grid" id="show_ele" >
+                        <table>
+                            <tr style="align-items: left;">
+                                <th width="160px">
+                                    <!-- <i id="icon" class="fas fa-briefcase"></i> -->
+
+                                    <mat-icon>work</mat-icon>
+
+                                    <h2> <b> {{x.company_name}} </b> <hr></h2>
+
+                                    {{x.position}} <br>
+                                    {{x.req_experience}} <br>
+
+                                    <button id="apply-button" (click) ="getButtonClick(x.link)" > <b> APPLY </b></button>
+                                </th>
+                                <th>
+
+                                    <div class="flip-card">
+                                        <div class="flip-card-inner">
+                                          <div class="flip-card-front">
+                                            <img [src]="x.company_logo" alt="image" style="width:120px;height:100px;">
+                                          </div>
+                                          <div class="flip-card-back">
+                                            <div style="margin-left: 30px; background-color: rgba(8, 243, 255, 0.118); border-radius: 10px;">
+                                                    <b>skills required**</b> <br>
+                                                    <b> {{x.req_skills}} </b> 
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    
+                                </th>
+                            </tr>
+                        </table>
+                        
+                        
+                    </div>
+                    <br>
+                </mat-grid-tile>
+            </mat-grid-list>
+            
+            <mat-paginator [length]="length"
+                [pageSize]="currentPageSize"
+                [pageSizeOptions]="pageSizeOptions"
+                (page)="onPageChange($event)"
+                aria-label="Select page"
+                >
+            </mat-paginator>
+            
+        </div>
+        
+        
+    </div>
+</div>
+
+<app-footer></app-footer>
